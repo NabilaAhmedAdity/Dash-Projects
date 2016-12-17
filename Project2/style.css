@@ -1,0 +1,56 @@
+/*{
+	border: 1px solid rgba(0, 255, 0, 1);
+}*/
+
+@media (max-width: 500px){
+   h1{
+       font-size: 36px;
+   }
+   li{
+       display: block;
+       padding: 5px;
+    }
+}
+
+.part1{
+   width: 100%;
+   //border: 1px solid rgba(0, 255, 0, 1);
+   background: url("https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcS2O3EtKx446YdPRInE0AayKLEdygMg7RO0LHoIwg5AhO6UXM8x-g") no-repeat center;
+   background-size: cover;
+   text-align: center;
+   color: white;
+}
+.part1 img{
+	height: 10%;
+	width: 10%;
+    margin-top: 40px;
+    border: 7px solid rgba(255, 255, 255, 1);
+    border-radius: 20%
+}
+.part1 h1{
+	//border: 1px solid rgba(0, 255, 0, 1);
+    font-weight: bold;
+    margin-top: 0%;
+    font-size: 300%;
+}
+.part1 ul{
+    padding: 10px;
+    margin-bottom: 0;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+.part1 li{
+	display: inline;
+	padding: 0px 10px;
+}
+.part1 a{
+	color: white;
+}
+.part2{
+    width: 500px;
+    padding: 20px;
+    margin: 0 auto 0 auto;
+}
+.part2 button{
+	display: block;
+	margin-left: 80%;
+}
