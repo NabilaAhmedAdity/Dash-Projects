@@ -1,0 +1,103 @@
+/*{
+	border: 1px solid rgba(0, 255, 0, 1);
+}*/
+
+body{
+   background-color: #232323;
+   font-family: helvetica, sans-serif;
+   max-width: 600px;
+   position: relative;
+   left: 400px;
+}
+
+h1{
+   font-family: 'Londrina Shadow', sans-serif;
+   text-align: center;
+   font-size: 75px;
+   //border: 1px solid rgba(0, 255, 0, 1);
+   margin-bottom: 0;
+   color: #aaaaaa;
+}
+h2{
+	text-align: center;
+	//border: 1px solid rgba(0, 255, 0, 1);
+	margin-top: 0;
+	color: #bbbbbb;
+}
+
+div{
+	position: relative;
+	margin-top: 40px;
+	border-radius: 12px;
+	height: 200px;
+}
+
+.child1{
+	background: url("http://demo.redboxeasyweb.com/files/food-8.jpg") center;
+	background-size: cover;
+}
+
+.child2{
+	background: url("http://baconmockup.com/300/200/") center;
+	background-size: cover;
+}
+
+.child3{
+	background: url("https://thumb7.shutterstock.com/display_pic_with_logo/2705599/353446841/stock-photo-traditional-christmas-fruit-cake-pudding-with-marzipan-and-cranberry-in-the-glaze-decor-on-a-353446841.jpg") center;
+    background-size: cover;
+}
+
+p{
+	color: white;
+	background-color: rgba(0, 0, 0, 0.5); //will work for internet explore
+	background: -moz-linear-gradient(bottom, rgba(0, 0, 0, 1), rgba(0, 0, 0, 0.4));
+	background: -webkit-linear-gradient(bottom, rgba(0, 0, 0, 1), rgba(0, 0, 0, 0.4)); //in Safari, Chrome, Opera
+	padding: 10px;
+	line-height: 28px;
+	position: absolute;
+	bottom: 0;
+	margin: 0px;
+	height: 30px;
+	//border: 1px solid rgba(0, 255, 255, 1);
+	transition: height .5s;
+    -webkit-transition: height .5s;
+    -moz-transition: height .5s;
+}
+
+.price{
+	float: right;
+}
+
+small{
+	opacity: 0;
+}
+
+.show-description p{
+  height: 150px;
+}
+.show-description small{
+  opacity: 1;
+}
+
+//Always give media query at the bottom of the CSS
+@media( max-width: 500px){
+	h1{
+		font-size: 50px;
+		margin-top: 20px;
+		line-height: 40px;
+	}
+	h2{
+	  font-size: 20px;
+	  margin: 20px 0 30px 0;
+	}
+	div{
+	  margin: 20px 12px 0 12px;
+	}
+	p{
+	  font-size: 20px;
+	  line-height: 24px;
+	}
+	small{
+	  font-size: 16px;
+	}
+}
